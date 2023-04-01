@@ -1,0 +1,54 @@
+{
+	"name": "nodejs-api-boilerplate",
+	"version": "1.0.0-development",
+	"description": "A boilerplate for writing micro-services in Node.js",
+	"license": "MIT",
+	"main": "src/index.js",
+	"scripts": {
+		"dev": "nodemon --exec babel-node src/index.js",
+		"build": "babel src -d dist",
+		"serve": "node dist/index.js",
+		"start:dev": "npm run build && nodemon dist/index.js",
+		"start:prod": "npm run build && npm run serve",
+		"lint": "eslint . --ext .js",
+		"lint:fix": "eslint --fix . --ext .js",
+		"prettier": "prettier src --check",
+		"prettier:fix": "npm run prettier -- --write",
+		"format": "npm run prettier:fix && npm run lint:fix"
+	},
+	"repository": {
+		"type": "git",
+		"url": ""
+	},
+	"author": {
+		"name": "Ali Chaudhary",
+		"email": "contact@AliChaudhary.com"
+	},
+	"keywords": [
+		"node",
+		"node.js",
+		"es6",
+		"express",
+		"API",
+		"microservice",
+		"boilerplate",
+		"starter kit",
+		"starter project"
+	],
+	"dependencies": {
+		"dotenv": "^16.0.3",
+		"express": "^4.18.1",
+		"mongo-getdb": "^5.0.1",
+		"node-schedule": "^2.1.1"
+	},
+	"devDependencies": {
+		"@babel/cli": "^7.18.6",
+		"@babel/core": "^7.18.6",
+		"@babel/node": "^7.18.6",
+		"@babel/preset-env": "^7.18.6",
+		"eslint": "^8.37.0",
+		"eslint-config-prettier": "^8.8.0",
+		"nodemon": "^2.0.18",
+		"prettier": "^2.8.7"
+	}
+}
