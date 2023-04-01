@@ -18,11 +18,11 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": ""
+		"url": "https://github.com/AliChaudharySandhu/node-express-boilerplate.git"
 	},
 	"author": {
 		"name": "Ali Chaudhary",
-		"email": "contact@AliChaudhary.com"
+		"email": "contact@AliChaudhary.me"
 	},
 	"keywords": [
 		"node",
