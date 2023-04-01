@@ -1,6 +1,6 @@
-# Nodejs Microservice starter project
+# Nodejs Microservice API starter project
 
-This is a starter project for developing micro-services in Node.js using ES9. I tried to keep the folder structure simple so that any beginner could understand and start working on it.
+This is a starter project for developing express api micr-service in Node.js using ES9..
 
 ## Getting Started
 
@@ -29,8 +29,8 @@ yarn start:prod
 
 ## License
 
-This project is licensed under the [MIT License](https://github.com/mateeqazam/nodejs-microservice-boilerplate/blob/main/LICENSE)
+This project is licensed under the [MIT License](https://github.com/AliChaudharySandhu/node-express-boilerplate/blob/main/LICENSE)
 
 ## Meta
 
-Muhammad Ateeq Azam – [@mateeqazm](https://twitter.com/mateeqazam) – contact@ateeqazam.me
+Ali Chaudhary – [@AliChaudharySandhu](https://twitter.com/AliChaudharySandhu) – contact@AliChaudharySandhu.me
